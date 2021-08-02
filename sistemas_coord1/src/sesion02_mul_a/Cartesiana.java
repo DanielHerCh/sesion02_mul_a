@@ -23,7 +23,7 @@ public class Cartesiana {
     }
     
     public Polar cartesiano_polar(float x, float y) {
-        float radio = sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+        float radio = sqrt((Math.pow(x, 2) + Math.pow(y, 2)));
         float angulo = (float)Math.atan(y/x);
         return new Polar(radio, angulo);
     }

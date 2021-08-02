@@ -1,12 +1,14 @@
 package sesion02_mul_a;
 
 public class Polar {
-    private float radio,
-            angulo;  // en radianes
+    private float radio, angulo;  // en radianes
 
     public Polar(float radio, float angulo) {
         this.radio = radio;
         this.angulo = angulo;
+    }
+    
+    public Polar(){
     }
 
     public float getRadio() {
