@@ -18,10 +18,18 @@ public class Cartesiana {
         return new Cartesiana(x, y);
     }
     
+    public Cartesiana polar_cartesiano(Polar p) {
+        return new Cartesiana();   // Implementar la fórmula correcta
+    }
+    
     public Polar cartesiano_polar(float x, float y) {
-        float radio = 0;   // Implementar la fórmula correcta
-        float angulo = 0;   // Implementar la fórmula correcta
+        float radio = sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+        float angulo = (float)Math.atan(y/x);
         return new Polar(radio, angulo);
+    }
+    
+    public Polar cartesiano_polar(Cartesiana c) {
+        return new Polar();   // Implementar la fórmula correcta
     }
 
     public float getY() {
