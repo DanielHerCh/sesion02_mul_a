@@ -1,0 +1,6 @@
+Observé enlaces en internet como https://es.wikipedia.org/wiki/Sistema_de_coordenadas,
+https://navarrof.orgfree.com/Docencia/MatematicasIV/UT1/sistemas_de_coordenadas.htm y
+https://pro.arcgis.com/es/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm,
+donde en las 3 páginas, obtuve definiciones similares de los sistemas de coordenadas. En Wikipedia obtuve 
+las definiciones de los tipos de coordenadas y en navarrof.orgfree.com se encontraban formulas para el
+cambio entre sistemas de coordenadas.
